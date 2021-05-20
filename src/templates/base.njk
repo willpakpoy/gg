@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} | The Mim Chapman Foundation</title>
+    <link rel="stylesheet" href="/static/build/universal.css">
+  </head>
+  <body>
+    {% include "./components/nav.njk" %}
+    {% block page %}{% endblock %}
+  </body>
+  <script src="/static/build/main.js"></script>
+</html>
