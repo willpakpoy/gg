@@ -1,6 +1,13 @@
 :root {
     --l-page-width: 1024px;
     --l-padding: 24px;
+    --l-breakpoint-1c: 910px;
 
-    --c-slate: #33363b
+    --c-slate: #33363b;
+    --c-oxford:  #002147;
+
+    --c-text-on-light: var(--c-slate);
+    --c-text-on-dark: lightgrey
 }
+
+// l is for layout, c is for colour

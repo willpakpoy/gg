@@ -1,6 +1,5 @@
 .nav-outer {
-  background-color: yellow;
-  height: 6em;
+  background-color: var(--c-oxford);
 
   nav {
     height: 100%;
@@ -12,24 +11,40 @@
     align-items: center;
     justify-content: space-between;
 
-    .nav-img {
-      height: 100%;
+    @media screen and (max-width: 950px) {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+    }
+
+    .nav-top {
       display: flex;
       flex-shrink: 1;
       img {
-        height: 100%;
+        height: 4em;
+      }
+
+      @media screen and (max-width: 950px) {
+        padding: var(--l-padding);
+        width: 100%;
+          box-shadow: 0 20px 64px rgba(0,0,0,.3)
       }
     }
     .nav-links {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-
+      display: flex;
+      flex-grow: 1;
+      justify-content: space-around;
+      @media screen and (max-width: 950px) {
+        flex-direction: column;
+        padding: var(--l-padding);
+        gap: var(--l-padding)
+      }
       a {
         font-size: 1.2em;
-        padding: 1em;
+        //padding: 1em var(--l-padding);
         font-weight: bold;
         text-transform: lowercase;
-        
+        color: var(--c-text-on-dark);
       }
     }
   }
