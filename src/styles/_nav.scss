@@ -20,14 +20,33 @@
     .nav-top {
       display: flex;
       flex-shrink: 1;
+      justify-content: space-between;
       img {
         height: 4em;
+      }
+
+      .mobile-menu {
+        display: none;
+        font-family: "Anicons Regular";
+        font-size: 2.4em;
+        color: $c-text-on-dark;
+        align-items: center;
+
+        font-variation-settings: "TIME" 1;
+        transition: font-variation-settings 0.4s ease;
+
+        &.open {
+          font-variation-settings: "TIME" 100;
+        }
       }
 
       @media screen and (max-width: $l-breakpoint-1c) {
         padding: $l-padding;
         width: 100%;
-          box-shadow: 0 20px 64px rgba(0,0,0,.3)
+        box-shadow: 0 20px 64px rgba(0,0,0,.3);
+        .mobile-menu {
+          display: flex;
+        }
       }
     }
     .nav-links {
