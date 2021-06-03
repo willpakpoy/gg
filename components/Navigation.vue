@@ -1,3 +1,29 @@
+<template>
+    <div class="nav-outer">
+        <nav>
+
+            <div class="nav-top">
+            <img alt="MCF logo" src="@/assets/images/mcf.svg">
+            <button class="mobile-menu"
+                :class="[menuOpen ? 'open' : false]"
+                @click="menuOpen = !menuOpen"
+            >A</button>
+            </div>
+
+            <div class="nav-links-outer" :class="[menuOpen ? 'open' : false]">
+            <div class="nav-links">
+                <a href="/who-we-are">Who we are</a>
+                <a href="/what-we-do">What we do</a>
+                <a href="/our-stories">Our stories</a>
+                <a href="/get-involved">Get involved</a>
+            </div>
+            </div>
+
+        </nav>
+    </div>
+</template>
+
+<style lang="scss" scoped>
 .nav-outer {
   background-color: $c-oxford;
   box-shadow: 0 20px 64px rgba(0,0,0,.3);
@@ -82,3 +108,15 @@
     }
   }
 }
+</style>
+
+<script>
+export default {
+    name: 'Navigation',
+    data() {
+        return {
+            menuOpen: false,
+        };
+    },
+};
+</script>
