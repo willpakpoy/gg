@@ -4,7 +4,7 @@ export default {
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: 'mcf',
+        title: 'The Mim Chapman Foundation',
         htmlAttrs: {
             lang: 'en',
         },
@@ -13,7 +13,10 @@ export default {
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
             { hid: 'description', name: 'description', content: '' },
         ],
-        link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+        link: [
+            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+            { rel: 'stylesheet', type: 'text/css', href: 'https://res.cloudinary.com/dr6lvwubh/raw/upload/v1581441981/Anicons/anicons-regular.css' },
+        ],
     },
 
     // Global CSS: https://go.nuxtjs.dev/config-css
@@ -47,5 +50,7 @@ export default {
     },
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
-    build: {},
+    build: {
+        publicPath: '/mcf-site/',
+    },
 };
