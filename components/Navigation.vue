@@ -1,0 +1,21 @@
+<template>
+    <div class="nav-outer">
+        <nav>
+
+            <div class="nav-top">
+            <img alt="MCF logo" src="/static/assets/mcf.svg">
+            <button class="mobile-menu">A</button>
+            </div>
+
+            <div class="nav-links-outer">
+            <div class="nav-links">
+                <a href="/who-we-are">Who we are</a>
+                <a href="/what-we-do">What we do</a>
+                <a href="/our-stories">Our stories</a>
+                <a href="/get-involved">Get involved</a>
+            </div>
+            </div>
+
+        </nav>
+    </div>
+</template>
