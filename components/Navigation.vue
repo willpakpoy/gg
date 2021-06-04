@@ -25,6 +25,7 @@
 
 <style lang="scss" scoped>
 .nav-outer {
+  z-index: 999;
   background-color: $c-oxford;
   box-shadow: 0 20px 64px rgba(0,0,0,.3);
   nav {
