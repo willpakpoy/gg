@@ -1,8 +1,8 @@
 <template>
 <main>
   <full-width-image-hero :image="require(`@/assets/images/pexels/mcf-home-sunrise.jpg`)" >
-    <h1>Welcome to<br>The Mim Chapman Foundation</h1>
-    <h2>Igniting creativity through continuous learning</h2>
+    <h1>welcome to<br>the mim chapman foundation</h1>
+    <h2>igniting creativity through continuous learning</h2>
   </full-width-image-hero>
 
   <div class="home-grid">
@@ -48,5 +48,6 @@ export default {};
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 40vh);
+  gap: 1em;
 }
 </style>
