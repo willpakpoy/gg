@@ -19,5 +19,9 @@ export default {
   p {
     font-size: 2em;
   }
+  hr {
+    border: none;
+    border-bottom: 2px solid #dddddd;
+  }
 }
 </style>

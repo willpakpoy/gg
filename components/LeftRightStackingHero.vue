@@ -45,7 +45,7 @@ export default {
       }
 
     .content {
-      padding: $l-padding;
+      padding: 2.4em;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -59,5 +59,10 @@ export default {
       }
     }
   }
+  &:nth-child(odd) .left-right-stacking-element {
+    direction: rtl;
+    text-align: left;
+  }
+
 }
 </style>

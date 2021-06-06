@@ -35,9 +35,3 @@ export default {
     name: 'what-we-do',
 };
 </script>
-
-<style scoped lang="scss">
-::v-deep .left-right-stacking-element::even {
-  direction: rtl
-}
-</style>
