@@ -36,6 +36,8 @@ export default {
 };
 </script>
 
-<style scoped>
-
+<style scoped lang="scss">
+::v-deep .left-right-stacking-element::even {
+  direction: rtl
+}
 </style>
