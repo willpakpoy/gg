@@ -4,7 +4,7 @@ export default {
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: 'The Mim Chapman Foundation',
+        title: 'G&G',
         htmlAttrs: {
             lang: 'en',
         },
@@ -52,7 +52,7 @@ export default {
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
-        publicPath: '/mcf-site/',
+        publicPath: '/gg-site/',
     },
     optimizedImages: {
         optimizeImages: true,

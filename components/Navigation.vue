@@ -3,7 +3,7 @@
         <nav>
 
             <div class="nav-top">
-            <img alt="MCF logo" src="@/assets/images/mcf.svg" @click="$router.push('/')">
+            <img alt="gg yanlogo" src="@/assets/images/gg.svg" @click="$router.push('/')">
             <button class="mobile-menu"
                 :class="[menuOpen ? 'open' : false]"
                 @click="menuOpen = !menuOpen"

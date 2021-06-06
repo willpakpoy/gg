@@ -1,36 +1,36 @@
 <template>
 <main>
-  <full-width-image-hero :image="require(`@/assets/images/pexels/mcf-home-sunrise.jpg`)" >
-    <h1>welcome to<br>the mim chapman foundation</h1>
-    <h2>igniting creativity through continuous learning</h2>
+  <full-width-image-hero :image="require(`@/assets/images/pexels/gg-home-sunrise.jpg`)" >
+    <h1>Welcome to<br>The Gilbert & Gerald Foundation</h1>
+    <h2>Igniting creativity through continuous learning</h2>
   </full-width-image-hero>
 
   <div class="home-grid">
 
     <clickable-block-hero
     linkTo="/who-we-are"
-    :image="require(`@/assets/images/pexels/mcf-home-tiles-who-we-are.jpeg`)"
+    :image="require(`@/assets/images/pexels/gg-home-tiles-who-we-are.jpeg`)"
     >
       <h1>who we are</h1>
     </clickable-block-hero>
 
     <clickable-block-hero
     linkTo="/what-we-do"
-    :image="require(`@/assets/images/pexels/mcf-home-tiles-what-we-do.jpeg`)"
+    :image="require(`@/assets/images/pexels/gg-home-tiles-what-we-do.jpeg`)"
     >
       <h1>what we do</h1>
     </clickable-block-hero>
 
     <clickable-block-hero
     linkTo="/our-stories"
-    :image="require(`@/assets/images/pexels/mcf-home-tiles-our-stories.jpeg`)"
+    :image="require(`@/assets/images/pexels/gg-home-tiles-our-stories.jpeg`)"
     >
       <h1>our stories</h1>
     </clickable-block-hero>
 
     <clickable-block-hero
     linkTo="/get-involved"
-    :image="require(`@/assets/images/pexels/mcf-home-tiles-get-involved.jpeg`)"
+    :image="require(`@/assets/images/pexels/gg-home-tiles-get-involved.jpeg`)"
     >
       <h1>get involved</h1>
     </clickable-block-hero>

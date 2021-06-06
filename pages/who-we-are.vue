@@ -1,11 +1,11 @@
 <template>
   <main>
-  <full-width-image-hero :image="require(`@/assets/images/pexels/mcf-home-tiles-who-we-are.jpeg`)">
+  <full-width-image-hero :image="require(`@/assets/images/pexels/gg-home-tiles-who-we-are.jpeg`)">
     <h1>who we are</h1>
   </full-width-image-hero>
 
   <text-block>
-    <p>The Mim Chapman Foundation is a group of passionate educators who work
+    <p>The Gilbert & Gerald Foundation is a group of passionate educators who work
       with all varieties of people to engage, connect with, and inspire them.</p>
     <p>We aim to accomplish this by teaching them about the values of creativity,
       and how they can express themselves in a creative way.</p>
