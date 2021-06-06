@@ -34,7 +34,6 @@ export default {
     buildModules: [
     // https://go.nuxtjs.dev/eslint
         '@nuxtjs/eslint-module',
-        '@aceforth/nuxt-optimized-images',
     ],
 
     // Modules: https://go.nuxtjs.dev/config-modules
@@ -53,8 +52,5 @@ export default {
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
         publicPath: '/gg-site/',
-    },
-    optimizedImages: {
-        optimizeImages: true,
     },
 };

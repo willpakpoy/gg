@@ -25,7 +25,7 @@ export default {
   .left-right-stacking-element {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    min-height: 60vh;
+    min-height: 50vh;
     background-color: #dddddd;
 
     @media screen and (max-width: $l-breakpoint-1c) {
