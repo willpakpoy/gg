@@ -1,7 +1,7 @@
 <template>
   <main>
   <full-width-image-hero :image="require(`@/assets/images/pexels/gg-home-tiles-who-we-are.jpeg`)">
-    <h1>Who we are</h1>
+    <h1>who we are</h1>
   </full-width-image-hero>
 
   <text-block>

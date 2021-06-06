@@ -1,7 +1,7 @@
 <template>
   <main>
     <full-width-image-hero :image="require(`@/assets/images/pexels/gg-home-tiles-what-we-do.jpeg`)">
-      <h1>What we do</h1>
+      <h1>what we do</h1>
     </full-width-image-hero>
 
     <left-right-stacking-hero
