@@ -17,7 +17,7 @@
 
     <left-right-stacking-hero
         :image="require(`@/assets/images/pexels/gg-what-we-do-elderly-drawing.jpeg`)"
-        alt="Classroom"
+        alt="Drawing"
     >
       <h1>Fundamental drawing skills classes</h1>
       <p>

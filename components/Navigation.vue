@@ -18,7 +18,6 @@
                 <NuxtLink to="/get-involved">Get involved</NuxtLink>
             </div>
             </div>
-
         </nav>
     </div>
 </template>

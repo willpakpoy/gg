@@ -27,6 +27,7 @@ export default {
     grid-template-columns: repeat(2, 1fr);
     min-height: 50vh;
     background-color: #dddddd;
+    grid-auto-flow: dense;
 
     @media screen and (max-width: $l-breakpoint-1c) {
       display: flex;
@@ -60,8 +61,12 @@ export default {
     }
   }
   &:nth-child(odd) .left-right-stacking-element {
-    direction: rtl;
-    text-align: left;
+    .image {
+      grid-column: 2;
+    }
+    .content {
+      grid-column: 1;
+    }
   }
 
 }
