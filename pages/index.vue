@@ -1,6 +1,6 @@
 <template>
 <main>
-  <full-width-image-hero :image="require(`@/assets/images/pexels/gg-home-sunrise.jpg`)" >
+  <full-width-image-hero :image="require(`@/assets/images/pexels/gg-home-sunrise.jpeg`)" >
     <h1>Welcome to<br>The Gilbert & Gerald Foundation</h1>
     <h2>Igniting creativity through continuous learning</h2>
   </full-width-image-hero>
