@@ -3,7 +3,7 @@
         <nav>
 
             <div class="nav-top">
-            <img alt="MCF logo" src="@/assets/images/mcf.svg">
+            <img alt="gg yanlogo" src="@/assets/images/gg.svg" @click="$router.push('/')">
             <button class="mobile-menu"
                 :class="[menuOpen ? 'open' : false]"
                 @click="menuOpen = !menuOpen"
@@ -12,19 +12,19 @@
 
             <div class="nav-links-outer" :class="[menuOpen ? 'open' : false]">
             <div class="nav-links">
-                <a href="/who-we-are">Who we are</a>
-                <a href="/what-we-do">What we do</a>
-                <a href="/our-stories">Our stories</a>
-                <a href="/get-involved">Get involved</a>
+                <NuxtLink to="/who-we-are">Who we are</NuxtLink>
+                <NuxtLink to="/what-we-do">What we do</NuxtLink>
+                <NuxtLink to="/our-stories">Our stories</NuxtLink>
+                <NuxtLink to="/get-involved">Get involved</NuxtLink>
             </div>
             </div>
-
         </nav>
     </div>
 </template>
 
 <style lang="scss" scoped>
 .nav-outer {
+  z-index: 999;
   background-color: $c-oxford;
   box-shadow: 0 20px 64px rgba(0,0,0,.3);
   nav {
@@ -49,6 +49,7 @@
       justify-content: space-between;
       img {
         height: 4em;
+        cursor: pointer;
       }
 
       .mobile-menu {

@@ -4,7 +4,7 @@ export default {
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: 'The Mim Chapman Foundation',
+        title: 'G&G',
         htmlAttrs: {
             lang: 'en',
         },
@@ -16,12 +16,15 @@ export default {
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
             { rel: 'stylesheet', type: 'text/css', href: 'https://res.cloudinary.com/dr6lvwubh/raw/upload/v1581441981/Anicons/anicons-regular.css' },
+            { rel: 'stylesheet', type: 'text/css', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/font-awesome.min.css' },
+            { rel: 'stylesheet', type: 'text/css', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css' },
         ],
     },
 
     // Global CSS: https://go.nuxtjs.dev/config-css
     css: [
         '@/assets/styles/universal.scss',
+        'normalize.css/normalize.css',
     ],
 
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -51,6 +54,6 @@ export default {
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
-        publicPath: '/mcf-site/',
+        publicPath: '/gg-site/',
     },
 };
