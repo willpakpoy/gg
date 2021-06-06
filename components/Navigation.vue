@@ -13,9 +13,9 @@
             <div class="nav-links-outer" :class="[menuOpen ? 'open' : false]">
             <div class="nav-links">
                 <NuxtLink to="/who-we-are">Who we are</NuxtLink>
-                <a href="/what-we-do">What we do</a>
-                <a href="/our-stories">Our stories</a>
-                <a href="/get-involved">Get involved</a>
+                <NuxtLink to="/what-we-do">What we do</NuxtLink>
+                <NuxtLink to="/our-stories">Our stories</NuxtLink>
+                <NuxtLink to="/get-involved">Get involved</NuxtLink>
             </div>
             </div>
 
