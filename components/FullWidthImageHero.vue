@@ -30,7 +30,7 @@ export default {
     filter: brightness(0.5);
     z-index: -1;
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position: center;
     background-size: cover;
   }
 
